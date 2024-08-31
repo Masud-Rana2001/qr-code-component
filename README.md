@@ -41,7 +41,7 @@ Use this section to recap over some of my major learnings while working through 
 ## Author
 
 - Website - [Masud Rana](https://masudprotfolio.netlify.app/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Masud-Rana2001)
+- Frontend Mentor - [@Masud Rana](https://www.frontendmentor.io/profile/Masud-Rana2001)
 
 
 
