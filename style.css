@@ -1,0 +1,57 @@
+:root{
+  --WhiteColor: hsl(0, 0%, 100%);
+
+--Slate300: hsl(212, 45%, 89%);
+--Slate500: hsl(216, 15%, 48%);
+--Slate900: hsl(218, 44%, 22%);
+
+}
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  background-color: var(--Slate300);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+p{
+  font-weight: 400;
+  margin-bottom:15px ;
+}
+html , body{
+  height: 100%;
+}
+.qrcard{
+  background-color: var(--WhiteColor);
+  padding: 12px;
+  width: 260px;
+  border-radius: 13px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.339);
+}
+img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.qrcard h4{
+  font-size: 17px;
+  padding:14px 12px;
+  text-align: center;
+  color: var(--Slate900);
+}
+.qrcard p{
+  text-align: center;
+  color: var(--Slate500);
+  font-size: 14px;
+  margin:7px 10px 15px  ;
+}
